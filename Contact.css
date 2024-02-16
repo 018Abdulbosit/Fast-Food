@@ -1,0 +1,73 @@
+.image{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid red;
+}
+
+.image:hover{
+    box-shadow: 0 0 30px gray;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    transition: 2s;
+}
+
+img:hover{
+    opacity: 1;
+    width: 450px;
+    height: 450px;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-family: 'Rubik Gemstones', system-ui;
+}
+
+.icon{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    font-size: 50px;
+    color: rgb(8, 207, 252);
+}
+
+.bi-telegram{
+    color: rgb(0, 123, 255);
+}
+
+.bi-youtube{
+    color: red;
+}
+.bi-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(image/backkkkkkkkkkkkkkkk.jpg);
+    background-size: cover;
+}
+
+ul li a {
+    color: white;
+}
